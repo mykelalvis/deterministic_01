@@ -1,9 +1,9 @@
 #!/bin/sh
-username=X
-password=Y
 # read -p "Enter your username : " username
 # read -s -p "Enter your password : " password
 
+username=${GEMUSER}
+PASSWORD=${GEMPASSWORD}
 
 GEMS_URL=https://${username}:${password}@artifacts.cotiviti.io/repository/gems-releases-local/
 GEMS_URL2=https://${username}:${password}@artifacts.cotiviti.io/repository/rubygems-public/
