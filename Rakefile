@@ -1,3 +1,7 @@
+require 'rubygems'
+require 'bundler/setup'
+require 'nokogiri'
+
 require 'rake/testtask'
 
 Rake::TestTask.new do |t|
